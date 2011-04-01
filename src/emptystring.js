@@ -9,7 +9,7 @@ window[""] = {
     sub:         function(emptyString, pattern, replacement) { return ""; },
     interpolate: function(emptyString, data) { return ""; },
     stripTags:   function(emptyString) { return ""; },
-    trim:        function(emptyString) { return ""; },
+    trim:        function(emptyString) { return ""; }
 };
 
 alert( window[""].isArray("") ); // false
